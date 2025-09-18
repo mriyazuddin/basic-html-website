@@ -1,0 +1,170 @@
+* {
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Comic Neue";
+}
+
+body {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+@media screen and (min-width: 600px) {
+  .brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    border-bottom: 1px solid black;
+  }
+
+  #projects ul li:first-child {
+    border-top: none;
+  }
+  #projects ul li:last-child {
+    border-bottom: none;
+  }
+  #main-area {
+    display: flex;
+  }
+  #testimonials {
+    display: flex;
+  }
+
+  #projects,
+  #work-experience,
+  #education,
+  #testimonials-area {
+    padding: 0;
+  }
+}
+
+/*##################################################*/
+@media screen and (max-width: 600px) {
+  #projects ul li {
+    background: #e9ecef;
+  }
+  .brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .brand div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .brand div img {
+    width: 40px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .myname {
+    font-size: 0.9rem;
+  }
+  .primary-navigation {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .primary-navigation li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  #work-experience article {
+    background-color: #e9ecef;
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+  #projects h3,
+  #work-experience h3,
+  #education h3,
+  #testimonials-area h3 {
+    text-align: center;
+  }
+}
+
+header {
+  border: 1px solid black;
+  margin-bottom: 3px;
+}
+
+.primary-navigation li {
+  display: inline-block;
+  list-style: none;
+}
+
+.primary-navigation li:before {
+  content: " / ";
+}
+.primary-navigation li:first-child::before {
+  content: "";
+}
+#title-area h1,
+#title-area h2 {
+  text-align: center;
+}
+
+#projects,
+#work-experience,
+#education,
+#testimonials-area {
+  border: 1px solid black;
+  padding: 0 10px;
+  border-style: double;
+}
+
+blockquote {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+#projects ul li {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  text-wrap: nowrap;
+}
+
+#projects ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-collapse: collapse;
+}
+#projects {
+  padding: 0;
+}
+#projects h3 {
+  padding: 0 10px;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  font-family: "Comic Neue";
+}
+#courses {
+  list-style: none;
+  padding: 10px;
+  text-wrap: nowrap;
+}
+#courses li:before {
+  content: " - ";
+}
