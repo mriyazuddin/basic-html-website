@@ -5,6 +5,7 @@ A simple HTML project that showcases a professional resume in a clean and semant
 ## 🌐 Project URL
 
 https://roadmap.sh/projects/basic-html-website
+https://roadmap.sh/projects/portfolio-website
 
 ## 📂 Project Structure
 

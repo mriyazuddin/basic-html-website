@@ -48,7 +48,6 @@ body {
   }
 }
 
-/*##################################################*/
 @media screen and (max-width: 600px) {
   #projects ul li {
     background: #e9ecef;
