@@ -1,6 +1,6 @@
-# Resume Project
+# Basic HTML Website Project
 
-A simple HTML project that showcases a professional resume in a clean and semantic format.
+A simple HTML, CSS project that showcases a basic HTML website in a clean and semantic format.
 
 ## 🌐 Project URL
 
@@ -9,10 +9,8 @@ https://roadmap.sh/projects/portfolio-website
 
 ## 📂 Project Structure
 
-- `Home.html` — Main HTML file containing resume content.
-- `Projects.html` — Project HTML file containing the projects content.
-- `Articles.html` - Article HTML file containing the articles.
-- `Contact.html` - Contact HTML containing the contact information.
+- `basic-html-website.html` — Main HTML file containing resume content.
+- 'styles.css' - Includes styles used in `basic-html-website.html`.
 
 ## 🚀 Getting Started
 
